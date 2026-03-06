@@ -10,7 +10,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",  
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "https://day-8-rust.vercel.app/products"
   ]
 }) );
 app.use(express.json());
